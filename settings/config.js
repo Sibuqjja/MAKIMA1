@@ -1,6 +1,6 @@
 module.exports = {
-  TOKEN: process.env.TOKEN || "BOT_TOKEN",
-  PREFIX: process.env.PREFIX || "BOT_PREFIX",
+  TOKEN: process.env.TOKEN || "MTIwMTU4MzExMDk5NTg0NTI0MQ.GmQlE4.2ZzxwP1FgPr-fXGNRVRq-RmdF5A-FI3Oc8QHws",
+  PREFIX: process.env.PREFIX || "+",
   embed: {
     color: process.env.color || "#220f80",
     wrongcolor: process.env.wrongcolor || "#8a0808",
@@ -16,11 +16,11 @@ module.exports = {
     search: "🔎",
     ping: "🏓",
     bot: "🤖",
-    pause_resume: "⏯️",
-    skip: "⏭️",
-    loop: "🔄",
-    stop: "⏹️",
-    autoplay: "♾",
+    pause_resume: "<a:music:1201255995242983475>",
+    skip: "<a:arrow_arrow:1197145196299817030>",
+    loop: "<a:DANCE:1114443680737153044>",
+    stop: "<a:AngryAwooGlitch:1199596271925743626>",
+    autoplay: "<a:music:1201255924376018994>",
   },
   // others
   mongodb: process.env.MONGO_URL || "MONGO_URL",
@@ -74,8 +74,8 @@ module.exports = {
     inviteURL:
       process.env.inviteURL ||
       `https://discord.com/api/oauth2/authorize?client_id=BOTID&permissions=8&scope=bot%20applications.commands`,
-    DiscordServer: process.env.DiscordServer || `https://discord.gg/FuKfAREn9f`,
-    VoteURL: process.env.VoteURL || `https://discord.gg/FuKfAREn9f`,
+    DiscordServer: process.env.DiscordServer || `https://discord.com/invite/puQ3nwffT2`,
+    VoteURL: process.env.VoteURL || `https://discord.com/invite/puQ3nwffT2`,
     Website: `https://jugnu.netlify.app/`,
   },
   options: {
