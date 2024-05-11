@@ -1,10 +1,10 @@
 module.exports = {
-  TOKEN: process.env.TOKEN || "MTIwMTU4MzExMDk5NTg0NTI0MQ.GmQlE4.2ZzxwP1FgPr-fXGNRVRq-RmdF5A-FI3Oc8QHws",
+  TOKEN: process.env.TOKEN || "MTIzODg0MzQyMjUwOTYyOTUxMA.Gr1k3p.EreTJtqRNYbzXQ0-UUYSx2KFbFCgN1mMIWz56c",
   PREFIX: process.env.PREFIX || "+",
   embed: {
     color: process.env.color || "#220f80",
     wrongcolor: process.env.wrongcolor || "#8a0808",
-    footertext: "Coded By Kabir Singh | Tech Boy Development",
+    footertext: "Coded yuta | Development",
   },
   emoji: {
     ERROR: "❌",
